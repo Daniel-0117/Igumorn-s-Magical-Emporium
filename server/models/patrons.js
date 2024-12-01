@@ -1,7 +1,12 @@
 const { Schema, model } = require('mongoose');
 
 const patronSchema = new Schema({
-    username: {
+    name: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    lastName: {
         type: String,
         required: true,
         unique: true

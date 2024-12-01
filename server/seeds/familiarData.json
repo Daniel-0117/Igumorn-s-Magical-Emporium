@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "catagories_id": 3,
+        "name": "Familiar 1",
+        "description": "Familiar 1 description",
+        "image": "familiar1.jpg",
+        "price": 1000
+    },
+    {
+        "id": 2,
+        "catagories_id": 3,
+        "name": "Familiar 2",
+        "description": "Familiar 2 description",
+        "image": "familiar2.jpg",
+        "price": 2000
+    },
+    {
+        "name": "Familiar 3",
+        "description": "Familiar 3 description",
+        "image": "familiar3.jpg",
+        "price": 3000
+    },
+    {
+        "name": "Familiar 4",
+        "description": "Familiar 1 description",
+        "image": "familiar1.jpg",
+        "price": 1000
+    },
+    {
+        "name": "Familiar 5",
+        "description": "Familiar 2 description",
+        "image": "familiar2.jpg",
+        "price": 2000
+    },
+    {
+        "name": "Familiar 6",
+        "description": "Familiar 3 description",
+        "image": "familiar3.jpg",
+        "price": 3000
+    }
+]
