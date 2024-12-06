@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "patron_id": 1,
+        "name": "Gold"
+    },
+    {
+        "id": 2,
+        "patron_id": 2,
+        "name": "Silver"
+    }
+    {
+        "id": 3,
+        "patron_id": 3,
+        "name": "Gold"
+    }
+    {
+        "id": 4,
+        "patron_id": 4,
+        "name": "A whole lot of cheese"
+    }
+]

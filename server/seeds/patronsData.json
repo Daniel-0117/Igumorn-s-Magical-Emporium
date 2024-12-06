@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "John Marquez",
+        "arcanomail": "TheTopFighter@ImHim.com",
+        "password": "password",
+        "homeplane": "Illume"
+    },
+    {
+        "id": 2,
+        "name": "Samantha Smith",
+        "arcanomail": "LovelyRanger@sneakyguild.com",
+        "password": "Cormancer089",
+        "homeplane": "Silent Forest"
+    },
+    {
+        "id": 3,
+        "name": "Derek Derrington",
+        "arcanomail": "drearymage@arcanistfinest.com",
+        "password": "Necrolancer6363",
+        "homeplane": "Darkpit"
+
+    },
+    {
+        "id": 4,
+        "name": "Cheese Wizard",
+        "arcanomail": "Cheesetomeetyou@arcanistfinest.com",
+        "password": "CheeseWizard",
+        "homeplane": "Cheese Plane"
+        
+    }
+]

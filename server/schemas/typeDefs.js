@@ -9,32 +9,47 @@ const typeDefs = gql`
         health: Int
     }
     
-    type magicMerch {
+    type MagicMerch {
         _id: ID
         name: String
         type: String
         description: String
         requirements: String
-    
-    type patron {
-        _id: ID
-        username: String
-        email: String
-        password: String
     }
     
-    type paymentType {
+    type Patron {
+        _id: ID
+        name: String
+        arcanomail: String
+        password: String
+        homeplane: String
+    }
+    
+    type PaymentType {
         _id: ID
         name: String
         patron: [patron]
+    }
+
+    type Category {
+        _id: ID
+        name: String
+    }
 
     type Auth {
         token: ID
-        user: User
+        user: Patron
     }
     
     type Query {
-        me: User
+       categories: [Category]
+        familiar(_id: ID!): Familiar
+        familiars(category: String, name: String): [Familiar]
+        magicMerch(_id: ID!): MagicMerch
+        magicMerchandise(category: String, name: String): [MagicMerch]
+        patron(_id: ID!): Patron
+        patrons: [Patron]
+        paymentType: [PaymentType]
     }
     
     type Mutation {
