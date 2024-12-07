@@ -28,7 +28,7 @@ const typeDefs = gql`
     type PaymentType {
         _id: ID
         name: String
-        patron: [patron]
+        patron: [Patron]
     }
 
     type Category {
