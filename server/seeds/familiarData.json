@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "catagories_id": 3,
+        "name": "Cillian ",
+        "description": "A small, black cat with a white spot on its chest. It has a small, silver bell around its neck.",
+        "image": "",
+        "price": 1000
+    },
+    {
+        "id": 2,
+        "catagories_id": 3,
+        "name": "Outus",
+        "description": "A medium sized, brown owl with large, golden eyes.",
+        "image": "",
+        "price": 2000
+    },
+    {
+        "id": 3,
+        "catagories_id": 3,
+        "name": "Kovum",
+        "description": "A two headed demon dog with black fur and red eyes. It seems scary, but it's actually quite friendly.",
+        "image": "familiar3.jpg",
+        "price": 3000
+    },
+    {
+        "id": 4,
+        "catagories_id": 3,
+        "name": "Slimy",
+        "description": "A small slime creature that can change its shape and color at will.",
+        "image": "",
+        "price": 1000
+    },
+    {
+        "name": "Necro",
+        "description": "An undead raven that can speak and has a dark sense of humor.",
+        "image": "",
+        "price": 2000
+    },
+    {
+        "name": "Fluffy",
+        "description": "A large, fluffy rabbit with a horn on its forehead. It's a bit clumsy, but it's very loyal.",
+        "image": "",
+        "price": 3000
+    }
+]
