@@ -7,6 +7,7 @@ const typeDefs = gql`
         type: String
         level: Int
         health: Int
+        price: Int
     }
     
     type MagicMerch {
