@@ -74,8 +74,8 @@ const resolvers = {
             const token = signToken(patron);
             return { token, patron };
         },
-        addFamiliar: async (parent, { name, type, level, health }) => {
-            const familiar = await Familiar.create({ name, type, level, health });
+        addFamiliar: async (parent, { name, type, level, health, price }) => {
+            const familiar = await Familiar.create({ name, type, level, health, price });
             return familiar;
         },
         addMagicMerch: async (parent, { name, type, description }) => {

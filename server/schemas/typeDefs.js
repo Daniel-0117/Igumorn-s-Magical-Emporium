@@ -56,7 +56,7 @@ const typeDefs = gql`
     type Mutation {
         login(email: String!, password: String!): Auth
         addPatron(name: String!, arcanomail: String!, password: String!, homeplane: String!): Auth
-        addFamiliar(name: String!, type: String!, level: Int!, health: Int!): Familiar
+        addFamiliar(name: String!, type: String!, level: Int!, health: Int! price: Int!): Familiar
         addMagicMerch(name: String!, type: String!, description: String!, requirements: String!): MagicMerch
     }
     `;
