@@ -12,7 +12,7 @@
         "id": 2,
         "catagories_id": 3,
         "name": "Outus",
-        "Type": "Avain: A medium sized, brown owl with large, golden eyes.",
+        "type": "Avain: A medium sized, brown owl with large, golden eyes.",
         "level": "4",
         "health": "14",
         "price": 1200
