@@ -1,12 +1,12 @@
 [
     {
-        "id": 1, "name": "Enchanted Home Page"
+        "id": 1, "category_name": "Enchanted Home Page"
     },
     {
-        "id": 2, "name": "Magical Merchandise"
+        "id": 2, "category_name": "Magical Merchandise"
     },
     {
-        "id": 3, "name": "Familiars"
+        "id": 3, "category_name": "Familiars"
     }
 
 ]

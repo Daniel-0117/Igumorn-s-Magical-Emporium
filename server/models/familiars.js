@@ -18,7 +18,7 @@ const familiarSchema = new Schema({
         type: Number,
         required: true
     },
-    description: {
+    price: {
         type: String,
         required: true
     }

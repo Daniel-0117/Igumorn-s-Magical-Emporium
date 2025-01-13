@@ -3,6 +3,8 @@ const { gql } = require('apollo-server-express');
 const typeDefs = gql`
     type Familiar {
         _id: ID
+        id: Int
+        category_id: Int
         name: String
         type: String
         level: Int
