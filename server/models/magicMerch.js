@@ -1,24 +1,25 @@
 const { Schema, model } = require('mongoose');
 
 const magicMerchSchema = new Schema({
-    item_name: { 
+    name: { 
         type: String, 
         required: true 
     },
-    item_type: { 
+    price: { 
+        type: Number, 
+        required: true 
+    },
+    description: { 
         type: String, 
         required: true 
     },
-    item_description: { 
-        type: String, 
-        required: true 
-    },
-    item_requirements: { 
+    requirements: { 
         type: String, 
         required: true 
     }
 });
 
-const magicMerch = model('magicMerch', magicMerchSchema);
+const MagicMerch = model('magicMerch', magicMerchSchema);
 
-module.exports = magicMerch;
+console.log('MagicMerch exported', MagicMerch);
+module.exports = MagicMerch;

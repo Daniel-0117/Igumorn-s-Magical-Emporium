@@ -5,7 +5,7 @@
         "name": "Hat of Happy Thoughts",
         "price": 20,
         "description": "A hat that provides thoughts of happiness and encouragment when you are feeling down.",
-        "image": ""
+        "requirements": "Level 1"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "name": "Wand of Wonder",
         "price": 50,
         "description": "A wand that can cast a random spell from a list of 100 spells.",
-        "image": ""
+        "requirements": "Level 4 or higher of any spellcasting class"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "name": "Cloak of Invisibility",
         "price": 100,
         "description": "A cloak that makes the wearer invisible to the naked eye.",
-        "image": ""
+        "requirements": "None"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "name": "Bag of Holding",
         "price": 200,
         "description": "A bag that can hold an infinite amount of items, but only weighs 5 pounds.",
-        "image": ""
+        "requirements": "None"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "name": "Ring of Regeneration",
         "price": 500,
         "description": "A ring that can regenerate any wound or lost limb.",
-        "image": ""
+        "requirements": "Level 5 or higher"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "name": "Amulet of the Planes",
         "price": 1000,
         "description": "An amulet that allows the wearer to travel to any plane of existence.",
-        "image": ""
+        "requirements": "level 10 or higher Wizard"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "name": "Elixer of Health",
         "price": 50,
         "description": "A potion that can heal any wound or disease.",
-        "image": ""
+        "requirements": "None"
     }
     
 ]

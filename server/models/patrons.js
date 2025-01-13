@@ -6,12 +6,7 @@ const patronSchema = new Schema({
         required: true,
         unique: true
     },
-    lastName: {
-        type: String,
-        required: true,
-        unique: true
-    },
-    arcanoMail: {
+    arcanomail: {
         type: String,
         required: true,
         unique: true,
@@ -20,6 +15,11 @@ const patronSchema = new Schema({
     password: {
         type: String,
         required: true
+    },
+    homeplane: {
+        type: String,
+        required: true,
+        unique: true
     },
     paymentType: [
         {
