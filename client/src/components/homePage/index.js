@@ -7,7 +7,7 @@ const homePage = () => {
         // card container
               <div className="card-container">  {/* ✅ Added parent div */}
                 <div>
-                  <div className="card bg-black card-rounded w-50">
+                  <div className="card bg-black card-rounded">
                     <img 
                       src={require("../../assets/Igumorn.jpg")}
                       className="homeImage"

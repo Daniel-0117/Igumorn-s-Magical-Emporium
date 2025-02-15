@@ -1,39 +1,79 @@
- html { 
-    background-color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+/* Ensure the entire page centers the content */
+body, html {
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-} 
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
 
+/* Centering the card-container */
 .card-container {
     display: flex;
-    flex-wrap: center;
-    justify-content: center;
-    align-items: vertical;
-    
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    min-height: 100vh;
+    width: 100%;
 }
 
-.card{
-    background-color: #000000; 
-    color: #ffffff;
-    border-radius: 12px;
+/* Fix the card alignment */
+.card {
+    background-color: black;
+    color: white;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card-header {
-    background-color: #000000;
-    color: #ffffff;
+    width: 33%; /* Takes up 1/3 of the screen */
+    max-width: 600px; /* Prevents oversized card */
+    min-width: 350px; /* Prevents it from being too small */
+    padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content inside */
+    justify-content: center;
+    margin: 0 auto; /* Ensures horizontal centering */
 }
 
+/* Fix the image centering issue */
 .homeImage {
+    width: 100%; /* Ensures the image fills the card */
+    height: auto;
+    display: block;
     border-radius: 12%;
-    height: 350px;
-    width: auto;
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+/* Keeping buttons centered */
+.middle-links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Button styling */
+.link {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    border: 2px solid transparent;
+    width: 150px;
+    text-align: center;
+}
+
+/* Hover effect */
+.link:hover {
+    background-color: darkorange;
+    border-color: white;
+    transform: scale(1.05);
 }
