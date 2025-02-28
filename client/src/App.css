@@ -6,6 +6,13 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
+@font-face {
+  font-family: 'MountainKing';
+  src: url('/fonts/MoutainKing-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: whitesmoke;
 }
