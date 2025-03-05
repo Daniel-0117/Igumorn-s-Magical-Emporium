@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'MountainKing';
-  src: url('/fonts/MoutainKing-Regular.ttf') format('truetype');
+  src: url('../src/assets/fonts/MoutainKing-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

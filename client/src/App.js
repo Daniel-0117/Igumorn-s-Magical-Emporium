@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 // import BucketList from './components/BucketList';
 import React from 'react';
 import HomePage from './components/homePage';

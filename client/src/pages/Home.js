@@ -7,10 +7,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const Home = () => {
     return (
         <div className="homePage">
-        <h1>Welcome to the Home Page</h1>
+        <h1>You Have Stumbled Somewhere You Weren't Supposed Too</h1>
         <p>
-            This is the home page of our app. Here you can find information about
-            our app and how to use it.
+            The Grey Star has found you. Now that you have found this place, you must be given to the Grey Star. 
         </p>
         </div>
     );

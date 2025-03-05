@@ -24,7 +24,7 @@
 .card {
     background-color: black;
     color: white;
-    font-family: MountainKing, sans-serif;
+    font-family: 'MountainKing', sans-serif !important;
     text-align: center;
     width: 33%; 
     max-width: 600px; 

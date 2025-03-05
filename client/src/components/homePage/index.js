@@ -56,7 +56,9 @@ const HomePage = () => {
           <div className="card-header bg-black text-white">
             <h1>Welcome to Igumorn's Magical Emporium</h1>
             <p>
-              Come one, come all, to the most magical place on earth! Here you can find all the magical 
+              Come one, come all, to the most magical place on earth! 
+              <br / >
+              Here you can find all the magical 
               items you need to make your life more magical.
               From the simplest of potions to the most powerful of spells, we have it all.
             </p>
