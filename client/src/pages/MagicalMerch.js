@@ -1,0 +1,18 @@
+import React from 'react';
+import magicMerchPage from '../components/magicMerchPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+
+const MagicMerch = () => {
+    return (
+        <div className="MagicMerch">
+        <h1></h1>
+        <p>
+            This is the home page of our app. Here you can find information about
+            our app and how to use it.
+        </p>
+        </div>
+    );
+    };
+export default MagicMerch;

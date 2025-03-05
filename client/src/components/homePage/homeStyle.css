@@ -1,0 +1,49 @@
+/* Ensure full-screen background */
+.background-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%; /* Make width 100% */
+    height: 100vh; /* Make height full viewport */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+/* Centering the card-container */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Fix the card alignment */
+.card {
+    background-color: black;
+    color: white;
+    font-family: 'MountainKing', sans-serif !important;
+    text-align: center;
+    width: 33%; 
+    max-width: 600px; 
+    min-width: 350px; 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Fix the image centering issue */
+.homeImage {
+    width: 100%; 
+    height: auto;
+    display: block;
+    border-radius: 12%;
+    margin: 0 auto; 
+}

@@ -1,10 +1,12 @@
 import './App.css';
-import BucketList from './components/BucketList';
+// import BucketList from './components/BucketList';
+import React from 'react';
+import HomePage from './components/homePage';
 
 function App() {
   return (
-    <div className="bucket-app">
-      <BucketList />
+    <div className="Magic-App">
+      <HomePage />
     </div>
   );
 }
