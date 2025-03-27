@@ -5,7 +5,8 @@
         "name": "Hat of Happy Thoughts",
         "price": 20,
         "description": "A hat that provides thoughts of happiness and encouragment when you are feeling down.",
-        "requirements": "Level 1"
+        "requirements": "Level 1",
+        "image": "/assets/HatOfHappyThoughts.png"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "name": "Wand of Wonder",
         "price": 50,
         "description": "A wand that can cast a random spell from a list of 100 spells.",
-        "requirements": "Level 4 or higher of any spellcasting class"
+        "requirements": "Level 4 or higher of any spellcasting class",
+        "image": "/assets/WandOfWonder.png"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "name": "Cloak of Invisibility",
         "price": 100,
         "description": "A cloak that makes the wearer invisible to the naked eye.",
-        "requirements": "None"
+        "requirements": "None",
+        "image": "/assets/CloakOfInvisibility.png"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "name": "Bag of Holding",
         "price": 200,
         "description": "A bag that can hold an infinite amount of items, but only weighs 5 pounds.",
-        "requirements": "None"
+        "requirements": "None",
+        "image": "/assets/BagOfHolding.png"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "name": "Ring of Regeneration",
         "price": 500,
         "description": "A ring that can regenerate any wound or lost limb.",
-        "requirements": "Level 5 or higher"
+        "requirements": "Level 5 or higher",
+        "image": "/assets/RingOfRegeneration.png"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "name": "Amulet of the Planes",
         "price": 1000,
         "description": "An amulet that allows the wearer to travel to any plane of existence.",
-        "requirements": "level 10 or higher Wizard"
+        "requirements": "level 10 or higher Wizard",
+        "image": "/assets/AmuletOfThePlanes.png"
     },
     {
         "id": 7,
@@ -53,7 +59,9 @@
         "name": "Elixer of Health",
         "price": 50,
         "description": "A potion that can heal any wound or disease.",
-        "requirements": "None"
+        "requirements": "None",
+        "image": "/assets/ElixerOfHealth.png"
+
     }
     
 ]
