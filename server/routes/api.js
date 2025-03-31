@@ -1,14 +1,14 @@
 const express = require('express');
 const router = express.Router();
 
-// Load seed data
-const magicMerch = require('../seeds/magicMerchData.json');
-
 // Test route to confirm API is reachable
 router.get('/test', (req, res) => {
   console.log('🧪 /api/test hit');
-  res.json({ message: 'Test working' });
+  res.json({ message: 'Test route working!' });
 });
+
+// Load seed data
+const magicMerch = require('../seeds/magicMerchData.json');
 
 // Route to get all magic merchandise
 router.get('/magicMerch', (req, res) => {
