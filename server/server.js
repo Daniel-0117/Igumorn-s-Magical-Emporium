@@ -1,3 +1,4 @@
+const cors = require('cors'); // Import CORS
 const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 const path = require('path');
@@ -5,7 +6,7 @@ const mongoose = require('mongoose');
 
 const { typeDefs, resolvers } = require('./schemas');
 const db = require('./config/connection');
-const apiRoutes = require('./routes/api'); // ✅ Correct import
+const apiRoutes = require('./routes/api'); // Correct import
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -17,24 +18,26 @@ const server = new ApolloServer({
   resolvers,
 });
 
-// ✅ Middleware
+// Middleware
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-// ✅ Mount API routes before anything else
+// Enable CORS for all routes
+app.use(cors());
+
+// Mount API routes before anything else
 app.use('/api', apiRoutes);
 
-// ✅ Serve static assets from React build in production
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'development') {
   app.use(express.static(path.join(__dirname, '../client/build')));
 
-  // ✅ Catch-all to send React index.html
-  app.get('*', (req, res) => {
+  // Catch-all to send React index.html for routes not starting with /api
+  app.get(/^\/(?!api).*/, (req, res) => {
     res.sendFile(path.join(__dirname, '../client/build/index.html'));
   });
 }
 
-// ✅ Start Apollo server and DB
+// Start Apollo server and DB connection
 const startApolloServer = async (typeDefs, resolvers) => {
   await server.start();
   server.applyMiddleware({ app });

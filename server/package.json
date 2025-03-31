@@ -2,6 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
+  "proxy": "http://localhost:3001",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -12,13 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server-express": "^3.6.2",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
     "express": "^4.17.2",
     "graphql": "^16.3.0",
-    "mongoose": "^6.1.8",
-    "bcrypt": "^5.1.1"
+    "mongoose": "^6.1.8"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
   }
 }

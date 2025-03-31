@@ -9,13 +9,17 @@ const MagicMerchPage = () => {
   useEffect(() => {
     fetch("/api/magicMerch")
       .then((res) => res.json())
-      .then((data) =>{
+      .then((data) => {
         console.log("Magic Merch Data:", data); 
         setMagicItems(data);
       })
       .catch((err) => console.error(err));
+  }, []);
+
+  // Optional: Display a loading message if no items yet
+  if (magicItems.length === 0) {
+    return <div>Loading magic merchandise...</div>;
   }
-  , []);
 
   return (
     <div className="container mt-5">
@@ -43,3 +47,4 @@ const MagicMerchPage = () => {
 };
 
 export default MagicMerchPage;
+
