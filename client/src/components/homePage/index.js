@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import magicStore from "../../assets/MagicStore.png"; // ✅ Import background image
 
+
 const HomePage = () => {
   console.log("HomePage Loaded");
 

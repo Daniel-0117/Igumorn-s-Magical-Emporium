@@ -16,12 +16,19 @@ const MagicMerchPage = () => {
       .catch((err) => console.error(err));
   }, []);
 
-  // Optional: Display a loading message if no items yet
+  // Check if magicItems have loaded in
   if (magicItems.length === 0) {
     return <div>Loading magic merchandise...</div>;
   }
 
   return (
+    <div
+      className="magic-background-image"
+      style={{
+        backgroundImage: `url(${require("../../assets/magicItems.jpeg")})`,
+      }}
+    >
+
     <div className="container mt-5">
       <div className="row">
         {magicItems.map((item) => (
@@ -41,6 +48,7 @@ const MagicMerchPage = () => {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </div>
   );
