@@ -1,0 +1,14 @@
+html body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.familiar-background-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh; 
+    padding-top: 20px; /* Adjust this value to match the navbar height */
+}
