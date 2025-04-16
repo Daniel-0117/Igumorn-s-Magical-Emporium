@@ -41,9 +41,11 @@ const FamiliarsPage = () => {
               />
               <div className="card-body">
                 <h5 className="card-title">{item.name}</h5>
-                <p className="card-text">{item.description}</p>
+                <p className="card-text">{item.type}</p>
+                <p><strong>Health:</strong> {item.health}</p>
+                <p><strong>Level:</strong> {item.level}</p>
                 <p><strong>Price:</strong> {item.price} gold</p>
-                <p><strong>Requirements:</strong> {item.requirements}</p>
+
               </div>
             </div>
           </div>

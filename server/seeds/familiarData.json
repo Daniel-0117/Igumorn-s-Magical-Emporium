@@ -6,7 +6,8 @@
         "type": "Feline: A small, black cat with a white spot on its chest. It has a small, silver bell around its neck.",
         "level": 2,
         "health": 10,
-        "price": 1000
+        "price": 1000,
+        "image": "/assets/Cillian.jpg"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "type": "Avain: A medium sized, brown owl with large, golden eyes.",
         "level": 4,
         "health": 14,
-        "price": 1200
+        "price": 1200,
+        "image": "/assets/Outus.jpg"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "type": "Underplaner: A two headed demon dog with black fur and red eyes. It seems scary, but it's actually quite friendly.",
         "level": 8,
         "health": 30,
-        "price": 3000
+        "price": 3000,
+        "image": "/assets/Kovum.jpg"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "type": "Monstrosity: A small slime creature that can change its shape and color at will.",
         "level": 1,
         "health": 5,
-        "price": 1000
+        "price": 1000,
+        "image": "/assets/Slimy.jpg"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "type": "Returned: An undead raven that can speak and has a dark sense of humor.",
         "level": 6,
         "health": 40,
-        "price": 2000
+        "price": 2000,
+        "image": "/assets/Necro.jpg"
     },
     {
         "id": 6,
@@ -51,6 +56,7 @@
         "type": "Beast: A large, fluffy rabbit with a horn on its forehead. It's a bit clumsy, but it's very loyal.",
         "level": 3,
         "health": 20,
-        "price": 3000
+        "price": 3000,
+        "image": "/assets/Fluffy.jpg"
     }
 ]
