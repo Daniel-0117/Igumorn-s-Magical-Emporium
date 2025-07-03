@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4904b23d.css",
-    "main.js": "/static/js/main.52387d3f.js",
-    "static/media/MagicStore.png": "/static/media/MagicStore.ded92affb5b013493b08.png",
-    "static/media/login-background.png": "/static/media/login-background.12f5647c20dcd419ee50.png",
-    "static/media/Familiar_adoption.jpg": "/static/media/Familiar_adoption.3d73c3a37a7a889a27c2.jpg",
-    "static/media/magicItems.jpeg": "/static/media/magicItems.9667065813d4acd35acb.jpeg",
-    "static/media/Igumorn.jpg": "/static/media/Igumorn.a8974a162f8beee23d2b.jpg",
-    "static/media/MoutainKing-Regular.ttf": "/static/media/MoutainKing-Regular.8b34bf05874eddbdb400.ttf",
-    "index.html": "/index.html",
-    "main.4904b23d.css.map": "/static/css/main.4904b23d.css.map",
-    "main.52387d3f.js.map": "/static/js/main.52387d3f.js.map"
+    "main.css": "/Igumorns-Magical-Emporium/static/css/main.921bb007.css",
+    "main.js": "/Igumorns-Magical-Emporium/static/js/main.aff4b199.js",
+    "static/media/MagicStore.png": "/Igumorns-Magical-Emporium/static/media/MagicStore.ded92affb5b013493b08.png",
+    "static/media/login-background.png": "/Igumorns-Magical-Emporium/static/media/login-background.12f5647c20dcd419ee50.png",
+    "static/media/Familiar_adoption.jpg": "/Igumorns-Magical-Emporium/static/media/Familiar_adoption.3d73c3a37a7a889a27c2.jpg",
+    "static/media/magicItems.jpeg": "/Igumorns-Magical-Emporium/static/media/magicItems.9667065813d4acd35acb.jpeg",
+    "static/media/Igumorn.jpg": "/Igumorns-Magical-Emporium/static/media/Igumorn.a8974a162f8beee23d2b.jpg",
+    "static/media/MoutainKing-Regular.ttf": "/Igumorns-Magical-Emporium/static/media/MoutainKing-Regular.8b34bf05874eddbdb400.ttf",
+    "index.html": "/Igumorns-Magical-Emporium/index.html",
+    "main.921bb007.css.map": "/Igumorns-Magical-Emporium/static/css/main.921bb007.css.map",
+    "main.aff4b199.js.map": "/Igumorns-Magical-Emporium/static/js/main.aff4b199.js.map"
   },
   "entrypoints": [
-    "static/css/main.4904b23d.css",
-    "static/js/main.52387d3f.js"
+    "static/css/main.921bb007.css",
+    "static/js/main.aff4b199.js"
   ]
 }
