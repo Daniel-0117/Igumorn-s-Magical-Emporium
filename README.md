@@ -8,7 +8,7 @@ Live deployed link or Walkthrough:
 ## Description
 Hello and Welcome all to Igumorn's Magical Emporioum!
 
-This site was crafted through my arcane prowess to provide all adventures the tools necassary for thier craft. Be it potions of healing, items to augment martial might, or a familiar to aid you in your dungeon delving. Look no further for the Illustrious Igurmorn has all you need and more!
+This site was crafted through my arcane prowess to provide all adventures the tools necassary for their craft. Be it potions of healing, items to augment martial might, or a familiar to aid you in your dungeon delving. Look no further for the Illustrious Igurmorn has all you need and more!
 
 ## Usage
 Public Repo link: https://github.com/Daniel-0117/Igumorn-s-Magical-Emporium
@@ -29,28 +29,31 @@ Public Repo link: https://github.com/Daniel-0117/Igumorn-s-Magical-Emporium
 
 - [Project requirements](#project-requirements)
 
-# HOME PAGE!
-![HOME PAGE]()
+# HOME PAGE
+<img src="client/src/assets/Home%20page.png" width="500"/>
 
-# OTHER PAGE!
-![OTHER PAGE]()
 
-# OTHER OTHER PAGE!
-![OTHER OTHER PAGE]()
+# Login Page
+<img src="client/src/assets/Login page.png" width="500"/>
 
+# Merch Page
+<img src="client/src/assets/Merch Page.png" width="500"/>
+
+# Familiar Page
+<img src="client/src/assets/Familiar page.png" width="500"/>
 
 ## Technologies used!
 I ended up using quite a few different things!
 
-React
-GraphQL
-Node.js
-Express.js
-MongoDB
-MongooseODM
-Heroku
-JWT Authentication
-Bootstrap
+- React
+- GraphQL
+- Node.js
+- Express.js
+- MongoDB
+- MongooseODM
+- Heroku
+- JWT Authentication
+- Bootstrap
 
 ## Credits
 Daniel Pacheco: https://github.com/Daniel-0117
@@ -89,4 +92,4 @@ Protect sensitive API key information on the server.
 Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class and id naming conventions, indentation, high-quality comments, and so on).
 
 Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
-### User Story!
+
