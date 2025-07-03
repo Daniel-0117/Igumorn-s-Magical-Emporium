@@ -1,5 +1,5 @@
 # Igumorn's Magical Emporium
-![HOLD PLEASE]()
+
 
 Live deployed link or Walkthrough: 
 
