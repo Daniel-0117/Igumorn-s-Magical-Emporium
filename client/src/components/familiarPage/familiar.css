@@ -10,5 +10,5 @@ html body {
     background-repeat: no-repeat;
     width: 100%;
     min-height: 100vh; 
-    padding-top: 20px; /* Adjust this value to match the navbar height */
+    padding-top: 80px; /* Adjust this value to match the navbar height */
 }

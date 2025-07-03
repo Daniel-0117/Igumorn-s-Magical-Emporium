@@ -5,7 +5,7 @@
         "name": "Hat of Happy Thoughts",
         "price": 20,
         "description": "A hat that provides thoughts of happiness and encouragment when you are feeling down.",
-        "requirements": "Level 1",
+        "requirements": "None",
         "image": "/assets/HatOfHappyThoughts.png"
     },
     {

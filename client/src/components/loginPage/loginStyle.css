@@ -1,0 +1,26 @@
+html body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.overlay {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-background-image {
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 20px; /* Adjust this value to match the navbar height */
+
+}
