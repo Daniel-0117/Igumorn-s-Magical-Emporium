@@ -33,14 +33,14 @@ const MagicMerchPage = () => {
       <div className="row">
         {magicItems.map((item) => (
           <div key={item.id} className="col-md-4 mb-4">
-            <div className="card h-100 shadow-sm" style={{ width: "18rem" }}>
+            <div className="card h-100 bg-dark text-white shadow-md" style={{ width: "18rem" }}>
               <img
                 src={item.image}
                 className="card-img-top"
                 alt={item.name}
               />
               <div className="card-body">
-                <h5 className="card-title">{item.name}</h5>
+                <h4 className="card-title">{item.name}</h4>
                 <p className="card-text">{item.description}</p>
                 <p><strong>Price:</strong> {item.price} gold</p>
                 <p><strong>Requirements:</strong> {item.requirements}</p>
