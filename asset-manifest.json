@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Igumorn-s-Magical-Emporium/static/css/main.c3092547.css",
-    "main.js": "/Igumorn-s-Magical-Emporium/static/js/main.d6269e65.js",
+    "main.js": "/Igumorn-s-Magical-Emporium/static/js/main.21a1f73e.js",
     "static/media/MagicStore.png": "/Igumorn-s-Magical-Emporium/static/media/MagicStore.ded92affb5b013493b08.png",
     "static/media/login-background.png": "/Igumorn-s-Magical-Emporium/static/media/login-background.12f5647c20dcd419ee50.png",
     "static/media/Familiar_adoption.jpg": "/Igumorn-s-Magical-Emporium/static/media/Familiar_adoption.3d73c3a37a7a889a27c2.jpg",
@@ -10,10 +10,10 @@
     "static/media/MoutainKing-Regular.ttf": "/Igumorn-s-Magical-Emporium/static/media/MoutainKing-Regular.8b34bf05874eddbdb400.ttf",
     "index.html": "/Igumorn-s-Magical-Emporium/index.html",
     "main.c3092547.css.map": "/Igumorn-s-Magical-Emporium/static/css/main.c3092547.css.map",
-    "main.d6269e65.js.map": "/Igumorn-s-Magical-Emporium/static/js/main.d6269e65.js.map"
+    "main.21a1f73e.js.map": "/Igumorn-s-Magical-Emporium/static/js/main.21a1f73e.js.map"
   },
   "entrypoints": [
     "static/css/main.c3092547.css",
-    "static/js/main.d6269e65.js"
+    "static/js/main.21a1f73e.js"
   ]
 }
