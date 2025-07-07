@@ -31,10 +31,9 @@ app.use('/api', apiRoutes);
 if (process.env.NODE_ENV === 'development') {
   app.use(express.static(path.join(__dirname, '../client/build')));
 
-  // Catch-all to send React index.html for routes not starting with /api
-  app.get(/^\/(?!api).*/, (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/build/index.html'));
-  });
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+});
 }
 
 // Start Apollo server and DB connection
