@@ -6,7 +6,7 @@
         "price": 20,
         "description": "A hat that provides thoughts of happiness and encouragment when you are feeling down.",
         "requirements": "None",
-        "image": "/assets/HatOfhappythoughts.png"
+        "image": "/assets/Hatofhappythoughts.png"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "price": 50,
         "description": "A wand that can cast a random spell from a list of 100 spells.",
         "requirements": "Level 4 or higher of any spellcasting class",
-        "image": "/assets/WandOfWonder.png"
+        "image": "/assets/WandofWonder.png"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "price": 100,
         "description": "A cloak that makes the wearer invisible to the naked eye.",
         "requirements": "None",
-        "image": "/assets/CloakOfInvisibility.png"
+        "image": "/assets/CloakofInvisibility.png"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "price": 200,
         "description": "A bag that can hold an infinite amount of items, but only weighs 5 pounds.",
         "requirements": "None",
-        "image": "/assets/BagOfHolding.png"
+        "image": "/assets/BagofHolding.png"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "price": 500,
         "description": "A ring that can regenerate any wound or lost limb.",
         "requirements": "Level 5 or higher",
-        "image": "/assets/RingOfRegeneration.png"
+        "image": "/assets/RingofRegeneration.png"
     },
     {
         "id": 6,
@@ -60,7 +60,7 @@
         "price": 50,
         "description": "A potion that can heal any wound or disease.",
         "requirements": "None",
-        "image": "/assets/ElixerOfHealth.png"
+        "image": "/assets/ElixerofHealth.png"
 
     }
     
