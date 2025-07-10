@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Homepage from "./components/homePage";
-import MagicMerchPage from "./pages/MagicalMerch";
+import MagicMerchPage from "./components/magicMerchPage";
 import Login from "./components/loginPage";
 import Layout from "./components/layout/layout";
 import FamiliarsPage from "./components/familiarPage";
