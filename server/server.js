@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 
 const { typeDefs, resolvers } = require('./schemas');
 const db = require('./config/connection');
-const apiRoutes = require('./routes/api'); // Correct import
+const apiRoutes = require('./routes/api');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -21,21 +21,17 @@ const server = new ApolloServer({
 // Middleware
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-
-// Enable CORS for all routes
 app.use(cors());
 
-// Mount API routes before anything else
+//  Mount API routes FIRST
 app.use('/api', apiRoutes);
 
-// ✅ Serve React static files in production
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../client/build')));
+//  Always serve static files (remove the NODE_ENV check)
+app.use(express.static(path.join(__dirname, '../client/build')));
 
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/build/index.html'));
-  });
-}
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+});
 
 // Start Apollo server and DB connection
 const startApolloServer = async (typeDefs, resolvers) => {
