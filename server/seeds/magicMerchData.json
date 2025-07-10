@@ -51,7 +51,7 @@
         "price": 1000,
         "description": "An amulet that allows the wearer to travel to any plane of existence.",
         "requirements": "level 10 or higher Wizard",
-        "image": "/assets/AmuletOfThePlanes.png"
+        "image": "/assets/AmuletofThePlanes.png"
     },
     {
         "id": 7,
