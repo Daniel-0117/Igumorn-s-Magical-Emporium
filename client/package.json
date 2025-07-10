@@ -2,7 +2,6 @@
   "name": "igumorns-magical-emporiumt",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Daniel-0117.github.io/Igumorn-s-Magical-Emporium",
   "proxy": "http://localhost:3001",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
