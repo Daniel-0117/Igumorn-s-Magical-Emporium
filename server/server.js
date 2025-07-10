@@ -28,7 +28,7 @@ app.use(cors());
 // Mount API routes before anything else
 app.use('/api', apiRoutes);
 
-//  Serve React static files in production
+// ✅ Serve React static files in production
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/build')));
 
