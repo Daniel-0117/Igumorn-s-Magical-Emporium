@@ -51,7 +51,7 @@ I ended up using quite a few different things!
 - Express.js
 - MongoDB
 - MongooseODM
-- Heroku
+- Render
 - JWT Authentication
 - Bootstrap
 
